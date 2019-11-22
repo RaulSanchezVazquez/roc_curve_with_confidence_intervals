@@ -11,7 +11,7 @@ print(platform.python_version())
     3.7.5
 
 
-# Notes
+## Notes
 
 Run you `jupyter notebook` positioned on the `stackoverflow` project folder.
 
@@ -34,7 +34,7 @@ print('Append to path: %s' % prj_path)
     Append to path: /Users/lsanchez/roc_curve_with_confidence_intervals
 
 
-# The data
+## The data
 
 I used the iris dataset to create a binary classification task where the possitive class corresponds to the `setosa` class.
 
@@ -56,19 +56,7 @@ data.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -151,6 +139,8 @@ print('Confidence Interval: %s (95%% confidence)' % str(ci))
 
 ```
 
+# R Version
+
 ```R
 version
 ```
@@ -173,7 +163,7 @@ version
     nickname       Action of the Toes          
 
 
-# The data
+## The data
 
 I used the iris dataset to create a binary classification task where the possitive class corresponds to the `setosa` class.
 
@@ -223,9 +213,3 @@ print(ci(roc))
 ```
 
     95% CI: 0.9302-0.987 (DeLong)
-
-
-
-```R
-
-```
